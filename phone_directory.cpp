@@ -231,6 +231,7 @@ int main(){
         cout << "To Continue... Press y/Y\nAny Key: ";
         char c;
         cin >> c;
+        cout<<endl;
         loop = (c == 'y' || c == 'Y');
     }
 
