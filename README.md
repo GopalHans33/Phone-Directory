@@ -13,6 +13,8 @@ Welcome to the Phone Directory application! This is a simple command-line tool f
 
 ## Getting Started
 
+### Run Online
+- https://www.jdoodle.com/a/7IMq
 ### Prerequisites
 
 - C++ compiler (e.g., g++)
