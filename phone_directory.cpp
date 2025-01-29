@@ -23,6 +23,9 @@ contact* searchcontact(vector<contact*>& alphabet){
     string tosearch;
     cin >> tosearch;
     tosearch = toLowerCase(tosearch);
+    if (tosearch[0] < 'a' || tosearch[0] > 'z') {
+        return NULL;
+    }
     int index = tosearch[0] - 'a';
     contact* temp = alphabet[index];
 
@@ -200,6 +203,8 @@ void deleteAllContacts(vector<contact*>& alphabet){
 }
 
 int main(){
+    cout<<"----------By Gopal----------\n";
+    cout<<"Make Sure You Tick On Interactive"<<endl;
     cout << "Welcome To Phone Directory" << endl;
     vector<contact*> alphabet(26, NULL);
 
